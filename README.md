@@ -1,3 +1,3 @@
 # vscode-settings
 
-Minhas configurações do vscode para projetos python.
+My template for python environment in vscode editor.
