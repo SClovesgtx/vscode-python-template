@@ -4,8 +4,7 @@
     "source.fixAll": true
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "files.autoSave": "afterDelay",
-  "editor.lineNumbers": "relative",
+  /* ======== english autocomplete ======== */
   "[markdown]": {
     "editor.quickSuggestions": {
       "other": true,
@@ -18,6 +17,7 @@
     "comments": true, // !!!
     "strings": true // !!!
   },
+  "cSpell.language": "en, en-US",
   /* ======== Python ======== */
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
@@ -26,9 +26,7 @@
     "${workspaceRoot}/src"
   ],
   "python.formatting.provider": "black",
-  "python.analysis.typeCheckingMode": "off",
-  "python.analysis.inlayHints.functionReturnTypes": true,
-  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.typeCheckingMode": "basic",
   "python.analysis.completeFunctionParens": true,
   "python.languageServer": "Pylance",
   "python.testing.pytestArgs": [
