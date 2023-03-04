@@ -1,4 +1,4 @@
-# vscode-settings
+# About
 
 My template for python environment in vscode editor.
 
@@ -23,3 +23,5 @@ For makefile in linux:
 ```
 ~$ sudo apt install build-essential
 ```
+
+Set environment variable ```PYTHONPATH=src```.
