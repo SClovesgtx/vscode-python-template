@@ -4,6 +4,8 @@ My template for python environment in vscode editor.
 
 # Dependencies
 
+First of all, activate you favorite virtual environment.
+
 For pre-commit work, install the following libs:
 
 - [pre-commit](https://pre-commit.com/)
