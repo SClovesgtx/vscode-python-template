@@ -6,7 +6,7 @@ My template for python environment in vscode editor.
 
 First of all, activate you favorite virtual environment.
 
-For pre-commit work, install the following libs:
+For pre-commit work, install the following:
 
 - [pre-commit](https://pre-commit.com/)
 - [commitizen](https://pypi.org/project/commitizen/)
