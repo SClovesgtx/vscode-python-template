@@ -12,12 +12,13 @@ For pre-commit work, install the following libs:
 - [bandit](https://pypi.org/project/bandit/)
 - [pytest](https://pypi.org/project/pytest/)
 
+To install the hooks:
+
 ```
 ~$ pre-commit install --install-hooks
 ```
 
-
-For makefile:
+For makefile in linux:
 
 ```
 ~$ sudo apt install build-essential
