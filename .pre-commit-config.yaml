@@ -20,20 +20,20 @@ repos:
             stages: [commit]
             language_version: python3.10
 
-    - repo: https://github.com/Lucas-C/pre-commit-hooks-bandit
-      rev: v1.0.6
-      hooks:
-          - id: python-bandit-vulnerability-check
-            stages: [commit]
-            args: [--skip, "B101,B403,B301", --recursive, src]
-
-    # - repo: local
+    # - repo: https://github.com/Lucas-C/pre-commit-hooks-bandit
+    #   rev: v1.0.6
     #   hooks:
-    #       - id: test
+    #       - id: python-bandit-vulnerability-check
     #         stages: [commit]
-    #         name: test
-    #         entry: make test
-    #         language: system
-    #         pass_filenames: false
-    #         always_run: true
-    #         verbose: true
+    #         args: [--skip, "B101,B403,B301", --recursive, src]
+
+    - repo: local
+      hooks:
+          - id: test
+            stages: [commit]
+            name: test
+            entry: make test
+            language: system
+            pass_filenames: false
+            always_run: true
+            verbose: true

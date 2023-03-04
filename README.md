@@ -2,7 +2,7 @@
 
 My template for python environment in vscode editor.
 
-# Pre-commit Dependencies
+# Dependencies
 
 For pre-commit work, install the following libs:
 
@@ -11,3 +11,14 @@ For pre-commit work, install the following libs:
 - [isort](https://pypi.org/project/isort/)
 - [bandit](https://pypi.org/project/bandit/)
 - [pytest](https://pypi.org/project/pytest/)
+
+```
+~$ pre-commit install --install-hooks
+```
+
+
+For makefile:
+
+```
+~$ sudo apt install build-essential
+```
